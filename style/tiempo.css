@@ -1,0 +1,28 @@
+  body {
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, transparent, rgb(161, 228, 255))
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #weather-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #weather-data div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 200px;
+  }
+  .nav-link{
+    text-decoration: none;
+    color: black;
+  }

@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html, body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    width: 30vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
